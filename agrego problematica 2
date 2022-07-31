@@ -44,8 +44,16 @@ LIMIT 5
 <sql name="3">
 UPDATE cliente
 SET branch_id = &quot;10&quot;
-WHERE customer_id BETWEEN 501 AND 505</sql><sql name="4">DELETE FROM cliente
-WHERE customer_name = &quot;Noel&quot; AND customer_surname = &quot;David&quot;</sql><sql name="5">SELECT loan_type
+WHERE customer_id BETWEEN 501 AND 505
+</sql>
+
+<sql name="4">
+DELETE FROM cliente
+WHERE customer_name = &quot;Noel&quot; AND customer_surname = &quot;David&quot;
+</sql>
+
+<sql name="5">
+SELECT loan_type
 FROM prestamo
 ORDER BY loan_total DESC
 LIMIT 1
