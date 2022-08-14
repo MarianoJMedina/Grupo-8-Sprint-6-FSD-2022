@@ -1209,7 +1209,6 @@ VALUES
   ("Lunea",866,"Halle","Theodore","Germany",99,254,210),
   ("Rose",4402,"Lodelinsart","Katell","Germany",100,372,323);
 
-ALTER TABLE cuenta ADD COLUMN Tipo_Cuenta
 
 
 INSERT INTO Direcciones (`Calle`,`Numero`,`Ciudad`,`Provincia`,`Pais`,`Branch_id`,`Employee_id`,`Customer_id`)
